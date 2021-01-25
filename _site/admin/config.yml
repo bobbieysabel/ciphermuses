@@ -20,7 +20,7 @@ collections:
         file: "_site/notes/index.html"
         slug: "{{slug}}"
         fields:
-          - {label: Title, name: title: string}
+          - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
   - label: "Notes"
     name: "notes"
