@@ -15,13 +15,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
-      - label: "Notes"
-        name: "notes"
-        file: "_site/notes/index.html"
-        slug: "{{slug}}"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
   - label: "Notes"
     name: "notes"
     folder: "/notes"
