@@ -30,6 +30,7 @@ module.exports = {
                             .split("|")[0]
                             .replace(/.(md|markdown)\s?$/i, "")
                             .trim()
+                            .replace(/\s/g, "-")
                     ));
 
                 // If the other note links here, return related info
